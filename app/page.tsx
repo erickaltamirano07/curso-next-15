@@ -1,9 +1,9 @@
-import React from "react";
+import styless from "@/app/ui/home.module.css";
 
 const Home = () => {
   return (
     <div>
-      <h1>Comenzando la app!!!</h1>
+      <h1 className={styless.text}>Comenzando la app!!!</h1>
     </div>
   );
 };

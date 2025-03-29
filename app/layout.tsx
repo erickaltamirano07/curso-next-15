@@ -1,4 +1,5 @@
 import React, { FC, PropsWithChildren } from "react";
+import "@/app/ui/globals.css";
 
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
@@ -7,7 +8,7 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
         <title>Next Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body>{children}</body>
+      <body className="bg-amber-300">{children}</body>
     </html>
   );
 };
